@@ -57,6 +57,11 @@ nav ul li a {
    text-transform: uppercase;
 }
 
+.intro h1{
+   text-align: center;
+   padding-top: 10px;
+}
+
 .container {
    min-height: 30vh;
    background-color: rgb(235, 215, 188);
@@ -75,7 +80,6 @@ nav ul li a {
    padding-left: 350px;
    padding-top: 100px;
 }
-
 .clone {
    animation: blinker 1.5s linear infinite;
    color: red;

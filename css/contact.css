@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
 body {
-   background-image: url(/Images/wal2.webp);
+   background-image: linear-gradient(rgba(179, 255, 0, 0.454), rgba(255, 0, 85, 0.337)),url(/Images/wal2.webp);
+   background-size: cover;
+   
 }
 
 * {
@@ -11,13 +13,8 @@ body {
 }
 
 nav {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 70px;
-
-   background: skyblue;
+   font-family: 'Ubuntu', sans-serif;
+   box-shadow: 0 4px 17px rgba(39, 37, 37, 0.531);
    border-radius: 10px;
 }
 
@@ -71,27 +68,29 @@ nav ul li {
    font-weight: bolder;
    font-size: 1.3rem;
 }
-#sd{
-    border: 3px solid;
-    border-radius: 5px;
-    border-color: black;
-    box-shadow: 1px 2px 1px 2px grey;
-    width: 700px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: 500px;
-    margin-top: 400px;
-    background-color: rgb(188, 182, 182);
-    font-size: 20px;
-    text-align: center;
+
+#sd {
+   border: 3px solid;
+   border-radius: 5px;
+   border-color: black;
+   box-shadow: 1px 2px 1px 2px grey;
+   width: 700px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   margin-left: 500px;
+   margin-top: 400px;
+   background-color: rgb(188, 182, 182);
+   font-size: 20px;
+   text-align: center;
 }
+
 marquee {
-    position: sticky;
-    background-color: greenyellow;
-    font-size: 30px;
-    margin-top: 720px;
-    width:100%;
-    bottom: 0;
-    display: flex;
+   position: sticky;
+   background-color: greenyellow;
+   font-size: 30px;
+   margin-top: 720px;
+   width: 100%;
+   bottom: 0;
+   display: flex;
 }

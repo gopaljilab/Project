@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
-body {
-   background-image: url(/Images/wal7.jpg);
+body{
+   background-image: linear-gradient(rgba(60, 255, 0, 0.576), rgba(0, 255, 234, 0.337)),url(/Images/wal3.webp);
    background-size: cover;
 }
-
 * {
    margin: 0;
    padding: 0;
 }
 
 nav {
+   font-family: 'Ubuntu', sans-serif;
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
    height: 70px;
-
    background: skyblue;
    border-radius: 10px;
+   box-shadow: 0 4px 17px rgba(39, 37, 37, 0.531);
 }
 
 nav .logo {
@@ -72,27 +72,78 @@ nav ul li {
    font-weight: bolder;
    font-size: 1.3rem;
 }
-h2{
-    text-align:center;
-    color: brown;
+
+.main {
+   padding: 6rem 0;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   row-gap: 2rem;
+   column-gap: 6rem;
+   align-items: center;
 }
-#ab{
-    border: 3px solid;
-    border-radius: 5px;
-    border-color: black;
-    box-shadow: 2px 3px 2px 3px grey;
-    width: 1000px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: 450px;
-    background-color: rgb(239, 216, 185);
-    font-size: 20px;
-    margin-top: 50px;
+
+.container {
+   padding: 0 8.4rem;
 }
-.head{
-    text-align: center;
-    align-items: center;
-    color: black;
-    margin-top: 90px;
+
+.img-w {
+   width: 100%;
+   height: auto;
+}
+
+.images {
+   margin-top: 50px;
+   border-radius: 10px;
+   width: 450px;
+}
+
+.images {
+   background: linear-gradient(145deg, #e2e8ec, #ffffff);
+   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+   border-top: 2px solid #f9532d;
+}
+
+.detail h3 {
+   color: #000;
+   font-size: 1.5rem;
+   animation: topSideAni 1s ease forwards;
+}
+
+.detail h1 {
+   color: #000;
+   font-size: 4rem;
+   font-weight: 600;
+   animation: leftSideAni 1s ease forwards;
+   animation-delay: 1s;
+}
+
+.social {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.4rem;
+   margin-top: 1.4rem;
+}
+
+.social a {
+   display: grid;
+   place-items: center;
+   text-decoration: none;
+   color: #f9532d;
+   font-size: 1.5rem;
+   border-radius: 50%;
+   padding: 0.39rem;
+   text-align: center;
+}
+
+.social a:hover {
+   color: #1F252E;
+   background-color: #f9532d;
+   box-shadow: 0 0 20px #f9532d;
+   transition: all .3s ease-in-out;
+}
+
+.detail {
+   float: right;
+   margin-top: -330px;
+   margin-right: 60px;
 }

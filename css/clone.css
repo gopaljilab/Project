@@ -12,6 +12,7 @@ body {
 
 nav{
     font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 4px 17px rgba(39, 37, 37, 0.531);
 }
 
 nav ul {

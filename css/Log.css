@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'varela-round';
-    box-sizing: border-box;
 }
 
 nav {
     font-family: 'Ubuntu', sans-serif;
- }
- nav ul {
+    box-shadow: 0 4px 17px rgba(39, 37, 37, 0.531);
+}
+
+nav ul {
     display: flex;
     position: sticky;
     align-items: center;
@@ -20,71 +20,75 @@ nav {
     height: 70px;
     list-style-type: none;
     color: white;
- }
- 
- nav ul li a:hover {
+}
+
+nav ul li a:hover {
     color: rgb(177, 177, 226);
     border-radius: 6px;
- 
- }
- 
- nav ul li a {
+
+}
+
+nav ul li a {
     line-weight: 80px;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
- }
- 
- nav ul li {
+}
+
+nav ul li {
     padding: 0px 8px;
- }
- 
- .brand img {
+}
+
+.brand img {
     padding: 3px 8px;
     width: 48px;
- }
- 
- .brand {
+}
+
+.brand {
     align-items: center;
     display: flex;
     font-weight: bolder;
     font-size: 1.3rem;
- }
-.container{
+}
+
+.container {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(251, 255, 0, 0.576), rgba(255, 230, 0, 0.337)),url(/Images/wal7.jpg);
+    background-image: linear-gradient(rgba(251, 255, 0, 0.576), rgba(255, 230, 0, 0.337)), url(/Images/wal7.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-.form-box{
+
+.form-box {
     border-radius: 4px;
-    box-shadow: #555 10px ;
+    box-shadow: #555 10px;
     width: 90%;
-    max-width: 450px;
+    max-width: 330px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background: #fff;
     padding: 50px 60px 70px;
     text-align: center;
 }
-.form-box h1{
+
+.form-box h1 {
     font-size: 30px;
     color: #3c00a0;
     margin-bottom: 60px;
     position: relative;
 }
-.form-box h1::after{
+
+.form-box h1::after {
     content: '';
-    width: 30px ;
+    width: 30px;
     height: 4px;
     border-radius: 3px;
-    background-color:#3c00a0 ;
+    background-color: #3c00a0;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -92,41 +96,47 @@ nav {
 }
 
 
-.input-field{
-        background-color: #eaeaea;
-        margin: 15px 0;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        max-height: 65px;
-        transition: max-height 0.5s;
-        overflow: hidden;
+.input-field {
+    background-color: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
 }
-input{
+
+input {
     width: 100%;
     background: transparent;
     border: 0;
     outline: 0;
     padding: 18px 15px;
 }
-.input-field i{
+
+.input-field i {
     margin-left: 15px;
-    color: #999; 
-} 
-form p{
+    color: #999;
+}
+
+form p {
     text-align: left;
     font-size: 13px;
 }
-form p a{
+
+form p a {
     text-decoration: none;
     color: #3c00a0;
 }
-.btn-field{
+
+.btn-field {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.btn-field button{
+
+.btn-field button {
     flex-basis: 48%;
     background: #3c00a0;
     color: #fff;
@@ -137,10 +147,12 @@ form p a{
     cursor: pointer;
     transition: opacity 0.4s ease-in;
 }
-.input-group{
+
+.input-group {
     height: 280px;
 }
-.btn-field button.disable{
+
+.btn-field button.disable {
     background: #eaeaea;
     color: #555;
 }

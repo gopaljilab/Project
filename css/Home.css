@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
 body {
-   background-image:linear-gradient(rgba(60, 255, 0, 0.576), rgba(246, 222, 7, 0.337)), url(/Images/wal4.webp);
+   background-image:  url(/Images/wal4.webp);
    background-size: cover;
 }
 
@@ -88,13 +88,16 @@ nav .topnav button:hover {
 
 .container {
    min-height: 30vh;
-   background-color: rgb(235, 215, 188);
+   background: #ffffff05;
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(25px) ;
    color: white;
    font-family: 'varela Round', 'sens-serif';
    margin-left: 280px;
    width: 70%;
    border-radius: 10px;
    margin-top: 200px;
+   box-shadow: 2px 2px solid #536052;
 }
 
 .container a {
@@ -121,7 +124,7 @@ nav .topnav button:hover {
 }
 
 @keyframes blinker {
-   60% {
+   80% {
       opacity: 0;
    }
 }

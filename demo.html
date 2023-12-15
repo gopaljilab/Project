@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            font-family: "Roboto", sans-serif;
+            line-height: 1.4;
+            font-weight: 300;
+            scroll-behavior: smooth;
+        } 
+        ul{
+            list-style-type: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+       
+        header{
+            background-color: rgb(54, 50, 50);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+        }
+        nav{
+             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            padding: 20px 0;
+        }
+        nav ul{
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            border-bottom: 2px solid transparent;
+            transition: 0.2s ease-in;
+        }
+
+        nav ul li:hover {
+            border-bottom: 2px solid white;
+             transition: 0.2s ease-in;
+        }
+
+        .logo{
+            font-size: 26px;
+            font-weight: 600;
+            padding: 7px;
+        }
+        .logo img{
+            padding: 3px 8px;
+            width: 40px;
+        }
+        .logo p{
+            font-size: 30px;
+            float: inline-end;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav class="container">
+        <ul>
+          <label class="logo"><img src="/Images/vibely.png" alt="Vibely"><p>Vibely</p></label>
+          <li class="active"> <a href="Home.html"> HOME </a> </li>
+          <li> <a href="Log.html"> REGISTER </a></li>
+          <li> <a href="about.html"> ABOUT </a> </li>
+          <li> <a href="contact.html"> CONTACT US </a> </li>
+        </ul>
+      </nav>
+    </header>
+</body>
+</html>

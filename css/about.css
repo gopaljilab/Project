@@ -149,3 +149,28 @@ nav ul li a {
    margin-top: -330px;
    margin-right: 60px;
 }
+.footer-upper {
+   background-color: black;
+   padding: 20px;
+   margin-top: 272px;
+}
+
+.footer-upper .container2 {
+   display: flex;
+   color: white;
+   justify-content: space-between;
+}
+
+.footer-upper h4 {
+   padding-bottom: 10px;
+   border-bottom: 2px solid white;
+   margin-bottom: 10px;
+}
+
+.footer-lower {
+   background-color: black;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
